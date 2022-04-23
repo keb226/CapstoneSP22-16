@@ -16,12 +16,8 @@
     padding: 5px;
     border-radius: 5px;
 
-    &.Approved {
+    &.Stocked {
       color: green;
-      background-color: rgba(0, 128, 0, 0.151);
-    }
-    &.Declined {
-      color: red;
       background-color: rgba(0, 128, 0, 0.151);
     }
     &.Pending {

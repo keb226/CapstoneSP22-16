@@ -11,51 +11,51 @@ const List = () => {
   const rows = [
     {
       id: 1143155,
-      product: "Acer Nitro 5",
-      img: "https://m.media-amazon.com/images/I/81bc8mA3nKL._AC_UY327_FMwebp_QL65_.jpg",
+      product: "Novolin",
+      img: "https://www.diabeticpromotions.com/media/catalog/product/cache/926eb0025a4663dfb7886d35c1b0ac7f/n/o/novolin7030.jpg",
       customer: "John Smith",
       date: "1 March",
-      amount: 785,
+      amount: "30-70U",
       method: "Cash on Delivery",
-      status: "Approved",
+      status: "Stocked",
     },
     {
       id: 2235235,
-      product: "Playstation 5",
-      img: "https://m.media-amazon.com/images/I/31JaiPXYI8L._AC_UY327_FMwebp_QL65_.jpg",
+      product: "FASENRA",
+      img: "https://www.empr.com/wp-content/uploads/sites/7/2018/12/4250739ea4e84e2ab497af5e9dec95ee-Fasenra_new_mon.png",
       customer: "Michael Doe",
       date: "1 March",
-      amount: 900,
+      amount: "12.5 mg",
       method: "Online Payment",
       status: "Pending",
     },
     {
       id: 2342353,
-      product: "Redragon S101",
-      img: "https://m.media-amazon.com/images/I/71kr3WAj1FL._AC_UY327_FMwebp_QL65_.jpg",
+      product: "Sensorcaine-MPF",
+      img: "https://biosupply.fffenterprises.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/e/sensorcaine-mpf-0_25-10ml-product-image.jpg",
       customer: "John Smith",
       date: "1 March",
-      amount: 35,
+      amount: "125 mg",
       method: "Cash on Delivery",
       status: "Pending",
     },
     {
       id: 2357741,
-      product: "Razer Blade 15",
-      img: "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+      product: "Gardasil 9",
+      img: "https://qtxasset.com/quartz/qcloud5/media/image/FiercePharma-1507662171/gardasil9.jpg?VersionId=XBGjx5Nvdf8VM1h0Jentt95cfC3nZ523",
       customer: "Jane Smith",
       date: "1 March",
-      amount: 920,
+      amount: "0.5 mL",
       method: "Online",
-      status: "Approved",
+      status: "Stocked",
     },
     {
       id: 2342355,
-      product: "ASUS ROG Strix",
-      img: "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      product: "BNT162b2",
+      img: "https://assets.medpagetoday.net/media/images/88xxx/88222.jpg",
       customer: "Harold Carol",
       date: "1 March",
-      amount: 2000,
+      amount: "3 mL",
       method: "Online",
       status: "Pending",
     },
@@ -67,11 +67,11 @@ const List = () => {
           <TableRow>
             <TableCell className="tableCell">Tracking ID</TableCell>
             <TableCell className="tableCell">Product</TableCell>
-            <TableCell className="tableCell">Customer</TableCell>
-            <TableCell className="tableCell">Date</TableCell>
-            <TableCell className="tableCell">Amount</TableCell>
+            <TableCell className="tableCell">Patient</TableCell>
+            <TableCell className="tableCell">Administration Date</TableCell>
+            <TableCell className="tableCell">Dosage</TableCell>
             <TableCell className="tableCell">Payment Method</TableCell>
-            <TableCell className="tableCell">Status</TableCell>
+            <TableCell className="tableCell">Availability</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

@@ -23,7 +23,7 @@ const Home = () => {
           <Chart title="Patient Visit Analytics" aspect={2 / 1} />
         </div>
         <div className="listContainer">
-          <div className="listTitle">Latest Transactions</div>
+          <div className="listTitle">Latest Prescription Orders</div>
           <Table />
         </div>
       </div>

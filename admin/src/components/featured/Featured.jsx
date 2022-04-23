@@ -9,38 +9,40 @@ const Featured = () => {
   return (
     <div className="featured">
       <div className="top">
-        <h1 className="title">Total Revenue</h1>
+        <h1 className="title">Weekly Overview</h1>
         <MoreVertIcon fontSize="small" />
       </div>
       <div className="bottom">
         <div className="featuredChart">
           <CircularProgressbar value={70} text={"70%"} strokeWidth={5} />
         </div>
-        <p className="title">Total sales made today</p>
-        <p className="amount">$420</p>
+        <p className="title">
+          Overall appointments completed
+          </p>
+        <p className="amount">14</p>
         <p className="desc">
-          Previous transactions processing. Last payments may not be included.
+          New patients registered this week. *May not be included all.
         </p>
         <div className="summary">
           <div className="item">
-            <div className="itemTitle">Target</div>
+            <div className="itemTitle">&nbsp;Target&nbsp;</div>
             <div className="itemResult negative">
               <KeyboardArrowDownIcon fontSize="small"/>
-              <div className="resultAmount">$12.4k</div>
+              <div className="resultAmount">&nbsp;20&nbsp;</div>
             </div>
           </div>
           <div className="item">
-            <div className="itemTitle">Last Week</div>
+            <div className="itemTitle">&nbsp;Last Week&nbsp;</div>
             <div className="itemResult positive">
               <KeyboardArrowUpOutlinedIcon fontSize="small"/>
-              <div className="resultAmount">$12.4k</div>
+              <div className="resultAmount">&nbsp;21&nbsp;</div>
             </div>
           </div>
           <div className="item">
-            <div className="itemTitle">Last Month</div>
+            <div className="itemTitle">&nbsp;Last Month&nbsp;</div>
             <div className="itemResult positive">
               <KeyboardArrowUpOutlinedIcon fontSize="small"/>
-              <div className="resultAmount">$12.4k</div>
+              <div className="resultAmount">&nbsp;63&nbsp;</div>
             </div>
           </div>
         </div>
@@ -48,5 +50,4 @@ const Featured = () => {
     </div>
   );
 };
-
 export default Featured;
