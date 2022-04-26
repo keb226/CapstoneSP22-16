@@ -44,7 +44,7 @@ const Sidebar = () => {
           <Link to="/order" style={{ textDecoration: "none" }}>
             <li>
               <LocalPharmacyIcon className="icon" />
-              <span>Recent Orders</span>
+              <span>Prescription Orders</span>
             </li>
           </Link>
           <li>

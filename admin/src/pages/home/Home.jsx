@@ -9,6 +9,7 @@ import Table from "../../components/table/Table";
 import icare from '../../components/sidebar/icare.png';
 
 const Home = () => {
+
   return (
     <div className="home">
       <Sidebar />
