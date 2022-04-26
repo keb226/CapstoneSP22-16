@@ -2,7 +2,10 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import List from "./pages/list/List";
 import Single from "./pages/single/Single";
+import Order from "./pages/order/Order";
+import Stats from "./pages/stats/Stats";
 import New from "./pages/new/New";
+import Profile from "./pages/profile/Profile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { productInputs, userInputs } from "./formSource";
 import "./style/dark.scss";
@@ -27,6 +30,9 @@ function App() {
                 element={<New inputs={userInputs} title="Add New User" />}
               />
             </Route>
+            <Route path="order" element={<Order />} />
+            <Route path="stats" element={<Stats />} />
+            <Route path="profile" element={<Profile inputs={userInputs} title="Edit User Profile"/>} />
             <Route path="products">
               <Route index element={<List />} />
               <Route path=":productId" element={<Single />} />

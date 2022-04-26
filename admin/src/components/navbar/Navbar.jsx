@@ -8,6 +8,7 @@ import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutline
 import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
 import { DarkModeContext } from "../../context/darkModeContext";
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { dispatch } = useContext(DarkModeContext);
@@ -44,13 +45,15 @@ const Navbar = () => {
           <div className="item">
             <ListOutlinedIcon className="icon" />
           </div>
-          <div className="item">
-            <img
-              src="https://www.regalmed.com/Regal-en-us/assets/Image/doctor-finder.jpg"
-              alt=""
-              className="avatar"
-            />
-          </div>
+          <Link to="/profile" style={{ textDecoration: "none" }}>
+            <div className="item">
+              <img
+                src="https://www.regalmed.com/Regal-en-us/assets/Image/doctor-finder.jpg"
+                alt=""
+                className="avatar"
+              />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
